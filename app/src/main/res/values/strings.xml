@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Test Project</string>
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consequat erat dolor, a rutrum elit aliquet a. Donec varius aliquet cursus. Sed porttitor eros massa, quis euismod libero eleifend id. Phasellus interdum ut felis sit amet tincidunt. Nunc malesuada vel urna et tempus. Proin a rhoncus nibh. Sed id odio pellentesque, tempor libero in, tempor metus. Sed aliquam ipsum ut risus tempor dictum. Proin ac tincidunt erat, convallis iaculis quam.</string>
+    <string name="salt">- Proin ac tincidunt erat, convallin iaculis quam.</string>
+
+</resources>

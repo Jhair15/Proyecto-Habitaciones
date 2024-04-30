@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgDetailPrin"
+            android:layout_width="380dp"
+            android:layout_height="280dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/habitacion1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/imgDetail1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/imagen1"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/imgDetail2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/imagen2"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/imgDetail3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/imagen3"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/imgDetail4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/imagen4"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:id="@+id/textHabitacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Descripción"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:hint="$ 40.00"
+                android:textColor="@color/black"
+                android:textSize="25sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:hint="@string/description"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/textAdicional1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Todo consumo hecho en la habitacion se cobrara al terminar la estadia"
+            android:textColor="@color/black"
+            android:textSize="12sp"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:text="Adquirir"
+            android:textSize="17sp"/>
+    </LinearLayout>
+</RelativeLayout>
